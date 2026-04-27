@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B1C3182E2F9A4D0E000E9AD2 /* MachoWalkerCore in Frameworks */ = {isa = PBXBuildFile; productRef = B1C3182D2F9A4D0E000E9AD2 /* MachoWalkerCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B1C318012F9A4506000E9AD2 /* DependenciesMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependenciesMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C3182E2F9A4D0E000E9AD2 /* MachoWalkerCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				B1C318032F9A4506000E9AD2 /* DependenciesMacOS */,
+				B1C3182C2F9A4D0E000E9AD2 /* Frameworks */,
 				B1C318022F9A4506000E9AD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +49,13 @@
 				B1C318012F9A4506000E9AD2 /* DependenciesMacOS.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B1C3182C2F9A4D0E000E9AD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +78,7 @@
 			);
 			name = DependenciesMacOS;
 			packageProductDependencies = (
+				B1C3182D2F9A4D0E000E9AD2 /* MachoWalkerCore */,
 			);
 			productName = DependenciesMacOS;
 			productReference = B1C318012F9A4506000E9AD2 /* DependenciesMacOS.app */;
@@ -94,6 +108,9 @@
 			);
 			mainGroup = B1C317F82F9A4506000E9AD2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B1C3181D2F9A4BF3000E9AD2 /* XCLocalSwiftPackageReference "MachoWalkerCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B1C318022F9A4506000E9AD2 /* Products */;
 			projectDirPath = "";
@@ -331,6 +348,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B1C3181D2F9A4BF3000E9AD2 /* XCLocalSwiftPackageReference "MachoWalkerCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MachoWalkerCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1C3182D2F9A4D0E000E9AD2 /* MachoWalkerCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1C3181D2F9A4BF3000E9AD2 /* XCLocalSwiftPackageReference "MachoWalkerCore" */;
+			productName = MachoWalkerCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1C317F92F9A4506000E9AD2 /* Project object */;
 }
